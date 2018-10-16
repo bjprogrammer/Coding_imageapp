@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#902a52</color>
+    <color name="colorPrimaryDark">#341147</color>
+    <color name="colorAccent">#cb4d80</color>
+
+    <color name="address">#000000</color>
+    <color name="phone">#817d7d</color>
+
+    <color name="colorCardView">#FFFFFF</color>
+    <color name="colorBackground">#E5E5E5</color>
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+    <color name="transition">#FFFFFF</color>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">18dp</dimen>
+    <dimen name="text_margin2">25dp</dimen>
+    <dimen name="text_size_big">22sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="app_bar_layout_height">300dp</dimen>
+    <dimen name="app_bar_layout_height_land">330dp</dimen>
+    <dimen name="line_spacing">1sp</dimen>
+    <dimen name="card_layout_margin">16dp</dimen>
+    <dimen name="card_layout_corner_radius">4dp</dimen>
+    <dimen name="card_layout_elevation">4dp</dimen>
+    <dimen name="iv_card_height">160dp</dimen>
+    <dimen name="iv_card_height_land">210dp</dimen>
+    <dimen name="tv_card_layout_margin">12dp</dimen>
+    <dimen name="tv_card_text_size">16sp</dimen>
+    <dimen name="corner_radius_button">5dp</dimen>
+    <dimen name="text_size_button">20sp</dimen>
+    <dimen name="scrollwidth">20dp</dimen>
+    <dimen name="fabElevation">6dp</dimen>
+    <dimen name="tabheight">3dp</dimen>
+    <dimen name="borderwidth">2dp</dimen>
+    <dimen name="fabelevation2">8dp</dimen>
+    <dimen name="marginTop">5dp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="buttonmarginbottom">15dp</dimen>
+    <dimen name="buttonmargintop">3dp</dimen>
+    <dimen name="textmargin">10dp</dimen>
+    <dimen name="textmarginbottom">5dp</dimen>
+    <dimen name="textmargstart">10dp</dimen>
+    <dimen name="textmargend">4dp</dimen>
+
+</resources>
+

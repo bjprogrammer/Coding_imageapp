@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">140dp</dimen>
+    <dimen name="app_bar_layout_height">210dp</dimen>
+    <dimen name="app_bar_layout_height_land">170dp</dimen>
+    <dimen name="borderwidth">2dp</dimen>
+    <dimen name="buttonmarginbottom">8dp</dimen>
+    <dimen name="buttonmargintop">3dp</dimen>
+    <dimen name="card_layout_corner_radius">2dp</dimen>
+    <dimen name="card_layout_elevation">3dp</dimen>
+    <dimen name="card_layout_margin">10dp</dimen>
+    <dimen name="corner_radius_button">3dp</dimen>
+    <dimen name="fabElevation">3dp</dimen>
+    <dimen name="fab_margin">8dp</dimen>
+    <dimen name="fabelevation2">3dp</dimen>
+    <dimen name="iv_card_height">130dp</dimen>
+    <dimen name="iv_card_height_land">120dp</dimen>
+    <dimen name="line_spacing">1sp</dimen>
+    <dimen name="margin">5dp</dimen>
+    <dimen name="marginTop">3dp</dimen>
+    <dimen name="scrollwidth">16dp</dimen>
+    <dimen name="tabheight">2dp</dimen>
+    <dimen name="text_margin">14dp</dimen>
+    <dimen name="text_margin2">20dp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_button">16sp</dimen>
+    <dimen name="text_size_medium">13sp</dimen>
+    <dimen name="text_size_small">11sp</dimen>
+    <dimen name="textmargend">4dp</dimen>
+    <dimen name="textmargin">8dp</dimen>
+    <dimen name="textmarginbottom">5dp</dimen>
+    <dimen name="textmargstart">8dp</dimen>
+    <dimen name="tv_card_layout_margin">8dp</dimen>
+    <dimen name="tv_card_text_size">14sp</dimen>
+</resources>

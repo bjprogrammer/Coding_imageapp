@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:pv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bobby.coding.splash.SplashActivity">
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/awesome_card1"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <com.bobby.coding.utils.ParticleView
+            android:id="@+id/particleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            pv:pv_background_color="@color/colorPrimary"
+            pv:pv_text_color="@android:color/white"
+            pv:pv_host_text="Mars"
+            pv:pv_particle_text="Play"
+            pv:pv_host_text_size="48sp"
+            pv:pv_particle_text_size="20sp"
+            pv:pv_text_anim_time="700"
+            pv:pv_spread_anim_time="1200"
+            pv:pv_host_text_anim_time="1500" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/awesome_card"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:alpha="0.0"
+                android:scaleType="fitXY" />
+
+    </android.support.v7.widget.CardView>
+</io.codetail.widget.RevealFrameLayout>

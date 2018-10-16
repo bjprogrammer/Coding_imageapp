@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:transitionGroup="false">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/textmarginbottom"
+                android:layout_marginTop="@dimen/buttonmarginbottom"
+                android:text="Settings"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of Images per Column-"
+                android:id="@+id/textinterval"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@+id/textView13"/>
+
+            <com.xw.repo.BubbleSeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:bsb_bubble_color="@color/colorPrimaryDark"
+                app:bsb_bubble_text_color="@color/colorPrimaryDark"
+                app:bsb_max="2"
+                app:bsb_min="5"
+                app:bsb_auto_adjust_section_mark="true"
+                app:bsb_seek_by_section="true"
+                app:bsb_second_track_color="@color/colorPrimaryDark"
+                app:bsb_section_count="3"
+                app:bsb_section_text_position="below_section_mark"
+                app:bsb_show_section_mark="true"
+                app:bsb_show_section_text="true"
+                app:bsb_show_thumb_text="true"
+                app:bsb_track_color="@color/phone"
+
+                app:bsb_always_show_bubble="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/textinterval" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/seekbar"
+                android:layout_marginBottom="@dimen/buttonmarginbottom"
+                android:layout_toLeftOf="@+id/textView13"
+                android:layout_toStartOf="@+id/textView13"
+                android:text="Update"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textView13"
+                android:layout_toRightOf="@+id/textView13"
+                android:text="Cancel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
